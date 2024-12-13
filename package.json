@@ -3,8 +3,10 @@
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "firebase-admin": "^13.0.1",
+    "git-filter-repo": "^0.0.30",
     "node-fetch": "^2.7.0"
   }
 }
