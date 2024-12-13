@@ -5,6 +5,13 @@ const fetch = require("node-fetch");
 const app = express();
 app.use(bodyParser.json());
 
+
+app.get('/', (req, res) => {
+    res.send('Hello, Omura Backend is live!');
+});
+
+
+
 app.post("/send-notification", async (req, res) => {
     const { token, title, body, data } = req.body;
 
